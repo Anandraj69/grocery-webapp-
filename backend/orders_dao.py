@@ -29,6 +29,8 @@ def insert_order(connection, order):
     connection.commit()
 
     return order_id
+    //always use the uom for differet items
+    
 
 def get_order_details(connection, order_id):
     cursor = connection.cursor()
