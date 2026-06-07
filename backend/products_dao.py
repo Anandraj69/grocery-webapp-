@@ -1,4 +1,6 @@
 from sql_connection import get_sql_connection
+// conection estalblish
+
 
 def get_all_products(connection):
     cursor = connection.cursor()
