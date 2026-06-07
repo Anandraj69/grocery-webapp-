@@ -1,4 +1,5 @@
 var productPrices = {};
+//use the filling products
 
 $(function () {
     //Json data by api call for order table
