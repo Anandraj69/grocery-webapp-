@@ -12,7 +12,9 @@ body.full-content, body {
     text-overflow: ellipsis;
     line-height: 14px;
     margin-top:-2px;
-}
+
+/* dont add shadow problem ,insted of add ( features) */
+
 
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
