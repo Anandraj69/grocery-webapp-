@@ -20,6 +20,7 @@ var productModal = $("#productModal");
     // Save Product
     $("#saveProduct").on("click", function () {
         // If we found id value in form then update product detail
+        // sometime it is not needed use this
         var data = $("#productForm").serializeArray();
         var requestPayload = {
             product_name: null,
