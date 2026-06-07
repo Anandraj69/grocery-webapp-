@@ -1,5 +1,6 @@
 import datetime
 import mysql.connector
+//commits are not added (irfan)
 
 __cnx = None
 
